@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(196, 196, 197);
+    font-family: "Gill Sans", sans-serif;
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Tableform{
+    width: 60%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+    border-radius: 2px;       
+}
+.title{
+    /*background-color:  rgb(124,154,167);*/
+    height: 100px;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 500px;                      
+}
+tr:nth-child(even), table.list thread> tr{
+    background-color:rgb(124,154,167);    
+}
+table.list{
+    text-align: center;
+    width: 100%;
+        
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+   
+}
+h3{
+    
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 10px;
+    
+}
+table{    
+   padding: 10px; 
+   width: 100%;
+}
+
+input{
+    margin: 5px;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    outline-color: rgb(101, 132, 223);
+    width: 90%;        
+}
+
+#input_Date{
+    padding: 15px;
+    width: 90%;
+    
+}
+
+#submit,#reset{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500px;
+    font-size: 20px;
+    cursor: pointer;      
+}
+
+#submit{
+    background-color: rgb(3, 122, 31);
+}
+#reset{
+    background-color: rgb(191, 10, 10);
+}
+
+#submit:hover{
+    background-color: rgb(25, 211, 68);
+}
+#reset:hover{
+    background-color:rgb(230, 56, 56);
+}

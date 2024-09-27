@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+    <h1>FORM APPLICATION </h1>
+    </div>
+    <hr>
+    <form autocomplete="off" onsubmit="onFormSubmit()">
+      
+     <div class="Tableform">
+        <table >
+            <Center><h3>Enter Your Details</h3></Center>
+            <tr>
+                <td>Name : </td>  <td> <input id="input_Name" type="text" placeholder="Enter Your Name"></td>
+                             
+            </tr>
+            <tr>
+                <td>Father Name : </td>  <td> <input id="input_fatherName" type="text" placeholder="Enter Your Father Name"></td>
+                             
+            </tr>
+            <tr>
+                <td>Age : </td>  <td> <input id="input_Age" type="number" placeholder="Enter Your Age"></td>
+                
+            </tr>
+            
+           
+            <tr>
+                <td>Date Of Birth : </td>  <td> <input id="input_Date" type="date"></td>
+                
+            </tr>
+            <tr>
+                <td>Email : </td>  <td> <input id="input_Email" type="text" placeholder="Enter Your Email"></td>
+                
+            </tr>
+
+            <tr> <td><td><button id="submit" onclick="onFormSubmit()">Save</button> <button id="reset" onclick="resetForm()"> Clear</button></td></tr></td>
+                  
+            
+        </table>
+        
+        <td>
+            
+            <table class="list" id="formList">
+                <thead>
+                    <tr>
+                                    <th>Name</th>
+                                    <th>Father Name</th>
+                                    <th>Age</th>
+                                    <th>Date Of Birth</th>
+                                    <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+        </td>
+
+        
+        
+     </div>
+      
+    </form>
+   
+
+<script src="Script.js"></script>
+</body>
+</html>
